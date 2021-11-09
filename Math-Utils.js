@@ -25,3 +25,12 @@ function multiplicacion(e,f) {
 multiplicacion(2, 3)
 multiplicacion(4, 37)
 multiplicacion(76, 98)
+
+function division(g, h) {
+  console.log(g / h);
+  return g/h
+}
+
+division(4, 2)
+division(29, 7)
+division(8762, 2018)

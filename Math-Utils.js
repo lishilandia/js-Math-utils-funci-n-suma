@@ -34,3 +34,18 @@ function division(g, h) {
 division(4, 2)
 division(29, 7)
 division(8762, 2018)
+
+function numeroMayor(i, j) {
+  
+  if (i > j) {
+    console.log("muestra " + i);
+    return i
+  } else if (j > i){
+    console.log("muestra " + j);
+    return j
+  }
+}
+
+  numeroMayor(8, 5)
+  numeroMayor(10, 30)
+  numeroMayor(192812, 8371392)

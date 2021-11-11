@@ -49,3 +49,17 @@ function numeroMayor(i, j) {
   numeroMayor(8, 5)
   numeroMayor(10, 30)
   numeroMayor(192812, 8371392)
+
+  //Funcion es mayor
+
+function esMayor(a,b) {
+    if (a > b) {
+    console.log("muestra " + a);
+    return a
+  } else {
+    console.log("muestra " + b);
+    return b
+  }
+}
+  
+esMayor(12,22)

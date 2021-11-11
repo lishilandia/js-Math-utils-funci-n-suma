@@ -54,12 +54,28 @@ function numeroMayor(i, j) {
 
 function esMayor(a,b) {
     if (a > b) {
-    console.log("muestra " + a);
+    console.log("el mayor es " + a);
     return a
   } else {
-    console.log("muestra " + b);
+    console.log("el mayor es " + b);
     return b
   }
 }
   
-esMayor(12,22)
+esMayor(12, 22)
+
+
+//Funcion es menor
+
+function esMenor(a,b) {
+    if (a < b) {
+    console.log("el menor es" + a);
+    return a
+  } else {
+    console.log("el menor es " + b);
+    return b
+  }
+}
+  
+esMenor(12, 22)
+esMenor(4,5)
